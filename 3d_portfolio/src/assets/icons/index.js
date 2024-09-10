@@ -27,6 +27,12 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import swift from './swift.svg'
+import java from './java.svg'
+import you from './you.svg'
+import profile from './profile.svg'
+import excellence from './excellence.svg'
+import heal from './heal.svg'
+
 
 export {
     css,
@@ -57,5 +63,10 @@ export {
     contact,
     soundon,
     soundoff,
-    swift
+    swift,
+    java,
+    you,
+    profile,
+    excellence,
+    heal
 }

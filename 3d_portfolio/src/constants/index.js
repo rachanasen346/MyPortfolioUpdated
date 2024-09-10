@@ -1,4 +1,9 @@
-import { mindcoder, techsaga, codebetter, ciss } from "../assets/images";
+import { mindcoder, techsaga, codebetter, ciss, p1, p2, p3, p4, p5, p6, p7, p8, p9, 
+    E1, E2, E3, E4, E5, E6, E7, E8, E9, E10, E11, E12, E13, E14,
+    y1, y2, y3, y4, y5, y6, y7, y8, y9,
+    
+ } from "../assets/images";
+
 import {
     car,
     contact,
@@ -19,6 +24,13 @@ import {
     summiz,
     tailwindcss,
     threads,
+    java,
+    swift,
+    you,
+    profile,
+    excellence,
+    heal
+
 } from "../assets/icons";
 
 export const skills = [
@@ -77,16 +89,22 @@ export const skills = [
     },
 
     {
-        imageUrl: tailwindcss,
+        imageUrl: java,
         name: "Java",
         type: "Programming Language",
     },
 
     {
-        imageUrl: tailwindcss,
-        name: "DSA",
-        type: "Data Structure & Algorithems",
+        imageUrl: swift,
+        name: "Swift",
+        type: "Swift programming",
     },
+
+    // {
+    //     imageUrl: tailwindcss,
+    //     name: "DSA",
+    //     type: "Data Structure & Algorithems",
+    // },
     
 ];
 
@@ -151,11 +169,11 @@ export const socialLinks = [
         iconUrl: contact,
         link: '/contact',
     },
-    // {
-    //     name: 'GitHub',
-    //     iconUrl: github,
-    //     link: 'https://github.com/YourGitHubUsername',
-    // },
+    {
+        name: 'GitHub',
+        iconUrl: github,
+        link: 'https://github.com/rachanasen346',
+    },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
@@ -163,8 +181,9 @@ export const socialLinks = [
     }
 ];
 
-export const projects = [
+export const iosProjects = [
     {
+        id: "1",
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Speedow User',
@@ -172,38 +191,111 @@ export const projects = [
         // link: 'https://github.com/adrianhajdin/pricewise',
     },
     {
+        id: '2',
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
+        name: 'Actium Digital',
         description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        // link: 'https://github.com/adrianhajdin/threads',
     },
     {
-        iconUrl: car,
+        id: '3',
+        iconUrl: heal,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
+        name: 'Heal the sick',
         description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        // link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
     },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
 ];
+
+export const mernProjects = [
+    {
+        id: '1',
+        iconUrl: excellence,
+        theme: 'btn-back-black',
+        name: 'Excellence Tuition',
+        description: 'Excellence Tuition features a responsive navigation bar , designed to enhance the user experience. The project integrates React Icons for visual appeal and includes a dynamic functionality with various tuition-related services. The layout is clean, user-friendly, and optimized for all devices.',
+        link: 'https://github.com/rachanasen346/My-Portfolio',
+        screen: [
+
+            { id: 'e1', img: E1, des: "abc" },
+            { id: 'e2', img: E2, des: "abc" },
+            { id: 'e3', img: E3, des: "abc" },
+            { id: 'e4', img: E4, des: "abc" },
+            { id: 'e5', img: E5, des: "abc" },
+            { id: 'e6', img: E6, des: "abc" },
+            { id: 'e7', img: E7, des: "abc" },
+            { id: 'e8', img: E8, des: "abc" },
+            { id: 'e9', img: E9, des: "abc" },
+            { id: 'e10', img: E10, des: "abc" },
+            { id: 'e11', img: E11, des: "abc" },
+            { id: 'e12', img: E12, des: "abc" },
+            { id: 'e13', img: E13, des: "abc" },
+            { id: 'e14', img: E14, des: "abc" },
+        ]
+    },
+    {
+        id: '2',
+        iconUrl: profile,
+        theme: 'btn-back-black',
+        name: 'Portfolio',
+        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        link: 'https://github.com/rachanasen346/My-Portfolio',
+        screen: [
+            { id: 'p1', img: p1, des: "abc" },
+            { id: 'p2', img: p2, des: "abc" },
+            { id: 'p3', img: p3, des: "abc" },
+            { id: 'p4', img: p4, des: "abc" },
+            { id: 'p5', img: p5, des: "abc" },
+            { id: 'p6', img: p6, des: "abc" },
+            { id: 'p7', img: p7, des: "abc" },
+            { id: 'p8', img: p8, des: "abc" },
+            { id: 'p9', img: p9, des: "abc" },
+        ]
+    },
+    
+    {
+        id: '3',
+        iconUrl: you,
+        theme: 'btn-back-pink',
+        name: 'Youtube clone',
+        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        link: 'https://github.com/rachanasen346/Youtube-clone',
+        screen: [
+            { id: 'py1', img: y1, des: "abc" },
+            { id: 'py2', img: y2, des: "abc" },
+            { id: 'py3', img: y3, des: "abc" },
+            { id: 'py4', img: y4, des: "abc" },
+            { id: 'py5', img: y5, des: "abc" },
+            { id: 'py6', img: y6, des: "abc" },
+            { id: 'py7', img: y7, des: "abc" },
+            { id: 'py8', img: y8, des: "abc" },
+            { id: 'py9', img: y9, des: "abc" },
+        ]
+    },
+       
+];
+export const navLinks = [
+    {
+        id: 'about',
+        title: 'About',
+        path: "/about",
+    },
+    {
+        id: 'project',
+        title: 'Projects',
+        path: "/projects",
+    },
+    {
+        id: 'contact',
+        title: 'Contact',
+        path: "/contact",
+    },
+    {
+        id: 'resume',
+        title: 'Resume',
+        path: "/resume",
+    },
+    
+];
+
