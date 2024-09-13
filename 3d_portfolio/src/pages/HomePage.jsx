@@ -8,12 +8,14 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 
 
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import portfolioImage from '../assets/images/wpp.jpeg';
+import About from './About';
 
 
 const HomePage = () => {
   return (
+    <>
     <section className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-blue-100 to-white pt-24 pb-20">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -34,7 +36,9 @@ const HomePage = () => {
 
           <div className="flex justify-center lg:justify-start gap-4 ml-4 mr-4">
             <Link
-              to="/projects"
+              to="projects"
+              smooth={true}
+              duration={500}
               className="bg-gradient-to-r from-[#007aff] to-[#02baff] text-white py-3 px-8 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300 inline-flex items-center"
             >
               View Projects
@@ -43,7 +47,9 @@ const HomePage = () => {
             </Link>
 
             <Link
-              to="/contact"
+              to="contact"
+              smooth={true}
+              duration={500}
               className="bg-gray-100 text-gray-800 py-3 px-8 rounded-lg shadow-lg hover:bg-gray-200 transition duration-300 inline-flex items-center"
             >
               Get in Touch
@@ -67,7 +73,9 @@ const HomePage = () => {
       <div className="mt-16 text-center">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Let’s Build Something Great Together!</h2>
         <Link
-          to="/about"
+          to="about"
+          smooth={true}
+          duration={500}
           className="bg-gradient-to-r from-[#007aff] to-[#02baff] text-white py-3 px-10 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 inline-flex items-center"
         >
           Learn More About Me
@@ -78,6 +86,8 @@ const HomePage = () => {
         </Link>
       </div>
     </section>
+   
+    </>
   );
 };
 

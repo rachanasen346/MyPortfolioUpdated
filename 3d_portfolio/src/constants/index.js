@@ -276,26 +276,13 @@ export const mernProjects = [
        
 ];
 export const navLinks = [
-    {
-        id: 'about',
-        title: 'About',
-        path: "/about",
-    },
-    {
-        id: 'project',
-        title: 'Projects',
-        path: "/projects",
-    },
-    {
-        id: 'contact',
-        title: 'Contact',
-        path: "/contact",
-    },
-    {
-        id: 'resume',
-        title: 'Resume',
-        path: "/resume",
-    },
-    
-];
+    { id:'1', path: 'home', title: 'Home' },
+    { id:'2', path: 'about', title: 'About' },
+    { id:'3', path: 'skills', title: 'Skills' },
+    { id:'4', path: 'education', title: 'Education' },
+    { id:'5', path: 'work', title: 'Work' },
+    { id:'6', path: 'experience', title: 'Experience' },
+    { id:'7', path: 'contact', title: 'Contact' },
+   
+  ];
 
